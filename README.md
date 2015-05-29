@@ -97,6 +97,12 @@ What this does is take the data, iterates through it with a loop and writes it i
 
 Now when we click the GET current users button we should see them populate in our DOM.
 
+
+
+
+
+
+
 ## Step 2 - Our first POST request
 
 GET requests are the easiest of requests. POSTs are a bit more tricky, but not by a lot. Let's hook our form up so that we can make a post request!
@@ -134,7 +140,7 @@ GET requests are the easiest of requests. POSTs are a bit more tricky, but not b
   });
 ```
 
-Notice how our method now says post, and our URL is a little different. Another thing that is different is this 'data' part. Data lets us pass specific information to the API via our request. This is useful when making POST requests because we are POSTing something to the api. It's also helpful when trying to find specific user data, we can do something like pass in the users ID. 
+Notice how our method now says post, and our URL is a little different. Another thing that is different is this 'data' part. Data lets us pass specific information to the API via our request. This is useful when making POST requests because we are POSTing something to the api. It's also helpful when trying to find specific user data, we can do something like pass in the users ID.
 
 Our data is currently the values from our input fields. 
 
